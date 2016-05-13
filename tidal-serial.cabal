@@ -18,4 +18,4 @@ Description: Serial stream for Tidal
 library
   Exposed-modules: Sound.Tidal.SerialStream
                    
-  Build-depends: base < 5, tidal == 0.8, serialport, bytestring, containers
+  Build-depends: base < 5, tidal == 0.8, serialport == 0.4.7, bytestring, containers
